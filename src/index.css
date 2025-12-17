@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap');
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .img-gallery{
+        @apply h-60 w-80 hover:scale-110 transition-transform duration-100 hover:brightness-115 hover:border-black hover:border-2
+    }
+}
+@theme{
+    --font-moonDance : "BBH Bartle", "sans-serif"
+}
